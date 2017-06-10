@@ -53,30 +53,28 @@ public class ExampClassCat2 {
                 Limpiar.cls();
                 System.out.println("EL CONTENIDO DE LA PILA  ES :: ");
                 P.Imprimir();
-                System.out.println("PRESIONES ENTER PARA CONTINUAR ");
+                System.out.println("PRESIONE ENTER PARA CONTINUAR ");
                 aux = Leer.datoInt();
                 break;
             case 3:
                 Limpiar.cls();
-                System.out.println("EL CONTENIDO DE LA PILA  ES :: ");
-                System.out.println(P.Eliminar());
-                dat = Leer.datoInt();
-                P.Buscar(dat);
-                System.out.println("PRESIONES ENTER PARA CONTINUAR ");
+                System.out.println("EL ELEMENTO ELEMENTO  ES :: ");
+                P.Eliminar();
+                System.out.println("PRESIONE ENTER PARA CONTINUAR ");
                 aux = Leer.datoInt();
                 break;
             case 4:
                 Limpiar.cls();
                 System.out.println("EL CONTENIDO DE LA PILA  ES :: ");
                 System.out.println(P.Sumar());
-                System.out.println("PRESIONES ENTER PARA CONTINUAR ");
+                System.out.println("PRESIONE ENTER PARA CONTINUAR ");
                 aux = Leer.datoInt();
                 break;
             case 5:
                 Limpiar.cls();
                 System.out.println("EL CONTENIDO DE LA PILA  ES :: ");
-                System.out.println(P.Ordenar());
-                System.out.println("PRESIONES ENTER PARA CONTINUAR ");
+                P.Ordenar(maxele);
+                System.out.println("PRESIONE ENTER PARA CONTINUAR ");
                 aux = Leer.datoInt();
                 break;
         }
